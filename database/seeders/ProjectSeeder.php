@@ -18,6 +18,7 @@ class ProjectSeeder extends Seeder
         Project::create([
             'name' => 'Nome del tuo progetto',
             'description' => 'Descrizione del tuo progetto',
+            'title' => 'titolo'
         ]);
 
         
